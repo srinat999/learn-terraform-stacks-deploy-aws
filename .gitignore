@@ -6,3 +6,4 @@
 *.log
 *.tfvars
 *.tfvars.json
+.gitconfig
