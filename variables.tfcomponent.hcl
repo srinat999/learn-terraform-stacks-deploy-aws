@@ -15,6 +15,7 @@ variable "identity_token" {
 variable "role_arn" {
   description = "ARN of role associated with identity token."
   type        = string
+  ephemeral = true
 }
 
 variable "default_tags" {
